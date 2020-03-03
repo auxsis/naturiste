@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="pos_config_promotion">
+            <field name="name">pos.config.promotion</field>
+            <field name="model">pos.config</field>
+            <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Promotions">
+                        <field name="promotion_ids" colspan="4" nolabel="1"/>
+                    </group>>
+                </xpath>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>
