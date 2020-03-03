@@ -170,8 +170,7 @@
 
         <record model="ir.actions.act_window" id="action_pos_promotion">
             <field name="name">Promotions</field>
-            <field name="res_model">pos.promotion</field>
-            <field name="view_type">form</field>
+            <field name="res_model">pos.promotion</field>            
             <field name="view_mode">tree,form</field>
         </record>
 
